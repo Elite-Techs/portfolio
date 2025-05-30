@@ -17,15 +17,22 @@ const certifications = [
     icon: <SiCoursera className="text-blue-400 text-2xl" />,
     link: "https://www.credly.com/badges/b21b33d7-02ed-43ee-ac60-20a8088f5874/public_url",
   },
-  {
+   {
     id: 3,
-    title: "Google IT Support Certificate",
-    platform: "Coursera",
-    icon: <SiCoursera className="text-blue-400 text-2xl" />,
-    link: "https://coursera.org/share/4ed3b98590bdb34405a8d6d03e20aae6",
+    title: "ISC2 Certified in Cybersecurity (CC)",
+    platform: "Coursera / ISC2",
+    icon: <SiCoursera className="text-green-400 text-2xl" />,
+    link: "https://www.coursera.org/account/accomplishments/specialization/certificate/L1PZNVJK9T3Y",
   },
   {
     id: 4,
+    title: "Google IT Support Certificate",
+    platform: "Coursera",
+    icon: <SiCoursera className="text-blue-400 text-2xl" />,
+    link: "https://www.credly.com/badges/3e320e7b-19aa-409c-b141-6caaba9d9fd7/public_url",
+  },
+  {
+    id: 5,
     title: "Cybersecurity Mastery & Ethical Hacking",
     platform: "Torilo Academy",
     icon: <FaUniversity className="text-yellow-400 text-2xl" />,

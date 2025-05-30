@@ -60,7 +60,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkedAlt className="text-green-400" />
-                <span>#36 Ketu, Lagos, Nigeria</span>
+                <span> Lagos Nigeria</span>
               </div>
             </div>
           </div>

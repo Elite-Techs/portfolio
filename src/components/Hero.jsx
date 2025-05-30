@@ -31,7 +31,7 @@ const Hero = () => {
             options={{
               strings: [
                 'Cybersecurity & SOC Analyst',
-                'Cloud Security Enthusiats',
+                'Cloud Security Enthusiast',
                 'Security Automation Engineer',
                 'AI for Threat Detection',
               ],
@@ -49,7 +49,7 @@ const Hero = () => {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mb-8">
           <a
-            href="https://www.linkedin.com/in/prince-richard-"
+            href="https://www.linkedin.com/in/prince-richard-o"
             target="_blank"
             rel="noopener noreferrer"
             aria-label="Connect on LinkedIn"
@@ -59,13 +59,12 @@ const Hero = () => {
             </button>
           </a>
           <a
-            href="public/Prince_Richard_Updated_Resume.pdf"
+            href="/portfolio/Prince_Richard_Updated_Resume_1.pdf"
             target="_blank"
             rel="noopener noreferrer"
-            aria-label="View Resume"
           >
             <button className="bg-gradient-to-r from-pink-500 to-yellow-500 text-white px-6 py-3 rounded-full hover:scale-105 transition-transform duration-300">
-              View My Resume 
+              View My Resume
             </button>
           </a>
         </div>

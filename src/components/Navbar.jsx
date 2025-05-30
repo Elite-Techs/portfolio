@@ -40,7 +40,7 @@ const Navbar = () => {
 
         {/* Desktop Button */}
         <a
-          href="https://www.linkedin.com/in/prince-richard-"
+          href="https://www.linkedin.com/in/prince-richard-o"
           target="_blank"
           rel="noopener noreferrer"
           className="hidden md:block"

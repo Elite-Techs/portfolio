@@ -22,12 +22,12 @@ const About = () => {
 
           {/* About Text */}
           <div className="flex-1">
-            <p className="text-lg mb-6 leading-relaxed text-gray-300">
-              I’m <span className="text-green-400 font-semibold">Prince Richard</span>, a dedicated <strong>Cybersecurity & SOC Analyst</strong> committed to defending digital infrastructures. I specialize in <em>threat detection, cloud security, incident response</em>, and <strong>security automation</strong>, with certifications from <strong>Google</strong> in Cybersecurity, IT Support, and IT Automation using Python.
+           <p className="text-lg mb-6 leading-relaxed text-gray-300">
+             I’m <span className="text-green-400 font-semibold">Prince Richard</span>, a dedicated <strong>Cybersecurity & SOC Analyst</strong> committed to defending digital infrastructures. I specialize in <em>threat detection, cloud security, incident response</em>, and <strong>security automation</strong>, with certifications from <strong>ISC2</strong> (Certified in Cybersecurity – CC) and <strong>Google</strong> in Cybersecurity, IT Support, and IT Automation with Python.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed text-gray-300">
-              I’m advancing my expertise through the <strong>Cybersecurity Mastery & Ethical Hacking program</strong> at <em>Torillo Academy</em>, while actively preparing for the <strong>CompTIA Security+</strong> certification. My full-stack development background (<strong>React, PHP, Laravel</strong>) enables me to build secure, scalable, and DevSecOps-ready solutions.
+             I’m advancing my expertise through the <strong>Cybersecurity Mastery & Ethical Hacking program</strong> at <em>Torillo Academy</em>, while actively preparing for the <strong>CompTIA Security+</strong> certification. My full-stack development background (<strong>React, PHP, Laravel</strong>) empowers me to build secure, scalable, and DevSecOps-ready solutions.
             </p>
 
             {/* Skills Progress Bars */}
