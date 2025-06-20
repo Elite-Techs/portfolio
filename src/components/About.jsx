@@ -22,12 +22,13 @@ const About = () => {
 
           {/* About Text */}
           <div className="flex-1">
-           <p className="text-lg mb-6 leading-relaxed text-gray-300">
-             I’m <span className="text-green-400 font-semibold">Prince Richard</span>, a dedicated <strong>Cybersecurity & SOC Analyst</strong> committed to defending digital infrastructures. I specialize in <em>threat detection, cloud security, incident response</em>, and <strong>security automation</strong>, with certifications from <strong>ISC2</strong> (Certified in Cybersecurity – CC) and <strong>Google</strong> in Cybersecurity, IT Support, and IT Automation with Python.
+            <p className="text-lg mb-6 leading-relaxed text-gray-300">
+              I’m <span className="text-green-400 font-semibold">Prince Richard</span>, a passionate <strong>Cybersecurity & SOC Analyst</strong> focused on building secure, resilient systems. I specialize in <em>threat detection, cloud security, incident response</em>, and <strong>Python-driven security automation</strong>.
+              I'm currently interning at <strong>Redynox</strong> and recently completed a cybersecurity internship at <strong>Torilo Academy</strong>, where I gained hands-on experience with industry tools and real-world scenarios.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed text-gray-300">
-             I’m advancing my expertise through the <strong>Cybersecurity Mastery & Ethical Hacking program</strong> at <em>Torillo Academy</em>, while actively preparing for the <strong>CompTIA Security+</strong> certification. My full-stack development background (<strong>React, PHP, Laravel</strong>) empowers me to build secure, scalable, and DevSecOps-ready solutions.
+              I’ve earned global certifications from <strong>ISC2</strong> (CC), <strong>Google</strong> (Cybersecurity, IT Support, Python Automation, and Cloud Security), <strong>IBM & Microsoft</strong>, and I’m currently advancing through the <em>Cybersecurity Mastery & Ethical Hacking Program</em> while preparing for <strong>CompTIA Security+</strong>. With a solid background in <strong>full-stack development</strong> (React, PHP, Laravel), I bring a DevSecOps mindset to every project I work on.
             </p>
 
             {/* Skills Progress Bars */}
@@ -63,7 +64,7 @@ const About = () => {
                 </h3>
                 <ul className="list-disc list-inside">
                   <li>Splunk, ELK, Wireshark, Sysmon</li>
-                  <li>MITRE ATT&CK Framework</li>
+                  <li>MITRE ATT&CK, Threat Intelligence</li>
                 </ul>
               </div>
 
@@ -73,7 +74,7 @@ const About = () => {
                   Cloud Platforms
                 </h3>
                 <ul className="list-disc list-inside">
-                  <li>AWS, Azure, IAM</li>
+                  <li>Google Cloud, AWS, Azure, IAM</li>
                 </ul>
               </div>
 
@@ -83,7 +84,7 @@ const About = () => {
                   Scripting & Automation
                 </h3>
                 <ul className="list-disc list-inside">
-                  <li>Python, Bash, Cron, msmtp</li>
+                  <li>Python, Bash, Cron, Automation Scripts</li>
                 </ul>
               </div>
 
@@ -100,10 +101,10 @@ const About = () => {
               <div>
                 <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
                   <Globe className="text-red-400 w-5 h-5" />
-                  Tools
+                  Tools & Collaboration
                 </h3>
                 <ul className="list-disc list-inside">
-                  <li>Git, GitHub, VS Code, VirtualBox</li>
+                  <li>Git, GitHub, VS Code, Trello, VirtualBox</li>
                 </ul>
               </div>
             </div>

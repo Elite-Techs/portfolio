@@ -4,23 +4,23 @@ import { ShieldCheck, Zap, CloudLightning } from "lucide-react";
 const services = [
   {
     id: 1,
-    title: "SOC & Threat Detection",
+    title: "SOC Operations & Threat Detection",
     description:
-      "I monitor enterprise environments using SIEMs like Splunk and ELK, detect anomalies, analyze incidents, and escalate threats for rapid response.",
+      "I investigate suspicious activity and security alerts across enterprise systems using SIEM tools like Splunk and ELK. I specialize in triage, incident documentation, and applying the MITRE ATT&CK framework to improve response accuracy.",
     icon: <ShieldCheck size={36} className="text-green-400 mb-4" />,
   },
   {
     id: 2,
-    title: "Security Automation with Python & AI",
+    title: "Security Automation & Python Scripting",
     description:
-      "I build Python scripts and integrate AI tools to automate log analysis, alert triage, and incident response workflows in SOC environments.",
+      "I develop Python-based automation to streamline repetitive SOC workflows including log parsing, alert enrichment, and early threat identification. I also experiment with AI-driven threat detection and intelligent alert filtering.",
     icon: <Zap size={36} className="text-yellow-400 mb-4" />,
   },
   {
     id: 3,
-    title: "Cloud Security & Compliance",
+    title: "Cloud Security & Access Control",
     description:
-      "I secure multi-cloud infrastructures (AWS, Azure) through IAM, policy auditing, vulnerability management, and compliance enforcement.",
+      "I secure cloud environments (GCP, AWS, Azure) by auditing IAM policies, managing roles, enforcing MFA, and identifying misconfigurations. I also support compliance and risk reduction efforts aligned with industry best practices.",
     icon: <CloudLightning size={36} className="text-blue-400 mb-4" />,
   },
 ];

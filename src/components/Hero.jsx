@@ -25,14 +25,14 @@ const Hero = () => {
           </span>
         </h1>
 
-        {/* Animated Cyber Roles */}
+        {/* Dynamic Cyber Roles */}
         <div className="text-xl sm:text-2xl md:text-3xl font-medium text-gray-300 mb-6 h-10">
           <Typewriter
             options={{
               strings: [
                 'Cybersecurity & SOC Analyst',
-                'Cloud Security Enthusiast',
-                'Security Automation Engineer',
+                'Cloud Security Analyst',
+                'Security Automation Specialist',
                 'AI for Threat Detection',
               ],
               autoStart: true,
@@ -41,9 +41,9 @@ const Hero = () => {
           />
         </div>
 
-        {/* Paragraph */}
+        {/* Summary Paragraph */}
         <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mb-10">
-          I specialize in securing enterprise environments through real-time SOC monitoring, threat intelligence, cloud security, and automated incident response using Python and AI.
+          I’m a multi-certified Cybersecurity, SOC & Cloud Security Analyst passionate about real-time threat detection, SOC operations, and automating incident response using Python and AI. Currently interning at Redynox and expanding my skills across SIEM, cloud platforms, and DevSecOps practices.
         </p>
 
         {/* CTA Buttons */}
@@ -59,7 +59,7 @@ const Hero = () => {
             </button>
           </a>
           <a
-            href="/portfolio/Prince_Richard_Updated_Resume_1.pdf"
+            href="/portfolio/Prince_Richard_Resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
           >
