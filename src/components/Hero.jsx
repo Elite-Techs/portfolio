@@ -10,14 +10,14 @@ const Hero = () => {
       className="bg-black text-white py-20 px-6 text-center"
     >
       <div className="container mx-auto max-w-4xl flex flex-col items-center">
-        {/* Profile Image on Top */}
+        {/* Profile Image */}
         <img
           src={HeroImage}
           alt="Prince Richard"
           className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 rounded-full object-cover shadow-2xl mb-6 hover:scale-105 transition-transform duration-300"
         />
 
-        {/* Animated Intro Heading */}
+        {/* Main Heading */}
         <h1 className="text-4xl sm:text-5xl md:text-6xl font-extrabold leading-tight mb-4">
           Hello, I’m{' '}
           <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
@@ -25,15 +25,14 @@ const Hero = () => {
           </span>
         </h1>
 
-        {/* Dynamic Cyber Roles */}
+        {/* Dynamic Roles */}
         <div className="text-xl sm:text-2xl md:text-3xl font-medium text-gray-300 mb-6 h-10">
           <Typewriter
             options={{
               strings: [
+                'IT Support Specialist',
                 'Cybersecurity & SOC Analyst',
-                'Cloud Security Analyst',
-                'Security Automation Specialist',
-                'AI for Threat Detection',
+                'Automation & Scripting Enthusiast',
               ],
               autoStart: true,
               loop: true,
@@ -41,9 +40,13 @@ const Hero = () => {
           />
         </div>
 
-        {/* Summary Paragraph */}
+        {/* Summary */}
         <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mb-10">
-          I’m a multi-certified Cybersecurity, SOC & Cloud Security Analyst passionate about real-time threat detection, SOC operations, and automating incident response using Python and AI. Currently interning at Redynox and expanding my skills across SIEM, cloud platforms, and DevSecOps practices.
+          Multi-certified IT Support and SOC Analyst skilled in building enterprise-grade 
+          infrastructure labs, automating IT workflows, and integrating SIEM tools like Splunk 
+          for proactive threat detection. Experienced in Active Directory, PowerShell automation, 
+          vulnerability assessment, and incident response — delivering secure, efficient, and 
+          scalable IT solutions.
         </p>
 
         {/* CTA Buttons */}

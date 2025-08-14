@@ -1,6 +1,6 @@
 import React from "react";
 import AboutImage from "../assets/aboutme-image.jpeg";
-import { ShieldCheck, Cloud, Code2, Globe, Settings2 } from "lucide-react";
+import { ShieldCheck, Code2, Globe, Settings2 } from "lucide-react";
 
 const About = () => {
   return (
@@ -23,12 +23,29 @@ const About = () => {
           {/* About Text */}
           <div className="flex-1">
             <p className="text-lg mb-6 leading-relaxed text-gray-300">
-              I’m <span className="text-green-400 font-semibold">Prince Richard</span>, a passionate <strong>Cybersecurity & SOC Analyst</strong> focused on building secure, resilient systems. I specialize in <em>threat detection, cloud security, incident response</em>, and <strong>Python-driven security automation</strong>.
-              I'm currently interning at <strong>Redynox</strong> and recently completed a cybersecurity internship at <strong>Torilo Academy</strong>, where I gained hands-on experience with industry tools and real-world scenarios.
+              I’m{" "}
+              <span className="text-green-400 font-semibold">
+                Prince Richard
+              </span>
+              , a multi-certified <strong>IT Support Specialist</strong> and{" "}
+              <strong>Cybersecurity & SOC Analyst</strong> passionate about
+              building secure, efficient, and resilient IT systems. I specialize
+              in <em>threat detection</em>, <em>incident response</em>, and{" "}
+              <strong>IT process automation</strong> using scripting tools like
+              Python and PowerShell.
             </p>
 
             <p className="text-lg mb-6 leading-relaxed text-gray-300">
-              I’ve earned global certifications from <strong>ISC2</strong> (CC), <strong>Google</strong> (Cybersecurity, IT Support, Python Automation, and Cloud Security), <strong>IBM & Microsoft</strong>, and I’m currently advancing through the <em>Cybersecurity Mastery & Ethical Hacking Program</em> while preparing for <strong>CompTIA Security+</strong>. With a solid background in <strong>full-stack development</strong> (React, PHP, Laravel), I bring a DevSecOps mindset to every project I work on.
+              My journey blends IT support, system administration, and
+              cybersecurity operations. I’ve completed professional
+              certifications from <strong>ISC2</strong> (CC),{" "}
+              <strong>Google</strong> (Cybersecurity, IT Support, IT Automation
+              with Python), <strong>IBM</strong>, and{" "}
+              <strong>Microsoft</strong>. I recently completed a{" "}
+              <strong>Cybersecurity Internship</strong> at{" "}
+              <strong>Torilo Academy</strong> and now serve as an{" "}
+              <strong>ICT Support Technician</strong> at Living Faith Church
+              Worldwide, applying my skills in real-world environments.
             </p>
 
             {/* Skills Progress Bars */}
@@ -36,7 +53,7 @@ const About = () => {
               {[
                 ["Security Tools (SIEM, EDR)", "w-11/12"],
                 ["Threat Detection & SOC", "w-10/12"],
-                ["Full-Stack Development", "w-10/12"],
+                ["IT Support & SysAdmin", "w-10/12"],
                 ["Scripting & Automation", "w-10/12"],
               ].map(([label, width]) => (
                 <div
@@ -70,21 +87,11 @@ const About = () => {
 
               <div>
                 <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
-                  <Cloud className="text-blue-400 w-5 h-5" />
-                  Cloud Platforms
-                </h3>
-                <ul className="list-disc list-inside">
-                  <li>Google Cloud, AWS, Azure, IAM</li>
-                </ul>
-              </div>
-
-              <div>
-                <h3 className="text-white font-semibold mb-2 flex items-center gap-2">
                   <Settings2 className="text-yellow-400 w-5 h-5" />
                   Scripting & Automation
                 </h3>
                 <ul className="list-disc list-inside">
-                  <li>Python, Bash, Cron, Automation Scripts</li>
+                  <li>Python, Bash, PowerShell, Cron Jobs</li>
                 </ul>
               </div>
 
@@ -94,7 +101,7 @@ const About = () => {
                   Web Development
                 </h3>
                 <ul className="list-disc list-inside">
-                  <li>React, PHP, Laravel, HTML, CSS, JavaScript</li>
+                  <li>React, HTML, CSS, JavaScript, Bootstrap</li>
                 </ul>
               </div>
 

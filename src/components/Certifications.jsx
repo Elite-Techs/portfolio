@@ -1,10 +1,14 @@
+import React from 'react';
+import { FaCertificate, FaUniversity } from 'react-icons/fa';
+import { SiCoursera } from 'react-icons/si';
+
 const certifications = [
   {
     id: 1,
     title: "ISC2 Certified in Cybersecurity (CC)",
     platform: "ISC2",
     icon: <FaCertificate className="text-green-400 text-2xl" />,
-    link: "#", // Add Credly link if available
+    link: "#",
   },
   {
     id: 2,
@@ -60,28 +64,35 @@ const certifications = [
     title: "Cybersecurity Mastery & Ethical Hacking",
     platform: "Torilo Academy",
     icon: <FaUniversity className="text-yellow-400 text-2xl" />,
-    link: "#",
+    link: "https://drive.google.com/file/d/1nwAmSkG8eRlYm7R6_7FWJkGkMuESoVcz/view?usp=sharing",
+  },
+  {
+    id: 10,
+    title: "Google Data Analytics Professional Certificate",
+    platform: "Coursera",
+    icon: <SiCoursera className="text-green-300 text-2xl" />,
+    link: "https://www.coursera.org/account/accomplishments/specialization/LXXSWPURCPLP",
   },
 ];
-const Service = () => {
+
+const Certifications = () => {
   return (
-    <section className="bg-black text-white py-20" id="service">
+    <section className="bg-black text-white py-20" id="certifications">
       <div className="container mx-auto px-6 md:px-12 lg:px-24">
-        <h2 className="text-4xl font-bold text-center mb-12">What I Offer</h2>
+        <h2 className="text-4xl font-bold text-center mb-12">Certifications</h2>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10">
-          {services.map((service) => (
-            <div
-              key={service.id}
+          {certifications.map((cert) => (
+            <a
+              key={cert.id}
+              href={cert.link}
+              target="_blank"
+              rel="noopener noreferrer"
               className="bg-gray-900 p-8 rounded-2xl shadow-md hover:shadow-xl transition duration-300 text-center hover:scale-105"
             >
-              {service.icon}
-              <h3 className="text-2xl font-semibold text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500 mb-3">
-                {service.title}
-              </h3>
-              <p className="text-gray-300 leading-relaxed text-base">
-                {service.description}
-              </p>
-            </div>
+              {cert.icon}
+              <h3 className="text-xl font-semibold mt-4 mb-2">{cert.title}</h3>
+              <p className="text-gray-400">{cert.platform}</p>
+            </a>
           ))}
         </div>
       </div>
@@ -89,4 +100,4 @@ const Service = () => {
   );
 };
 
-export default Service;
+export default Certifications;

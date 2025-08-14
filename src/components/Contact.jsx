@@ -56,7 +56,7 @@ const Contact = () => {
               </div>
               <div className="flex items-center gap-3">
                 <FaPhone className="text-green-400" />
-                <span>+234 (80) 7891 0382</span>
+                <span>+234 (70) 5546 0372</span>
               </div>
               <div className="flex items-center gap-3">
                 <FaMapMarkedAlt className="text-green-400" />

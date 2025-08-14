@@ -1,27 +1,27 @@
 import React from "react";
-import { ShieldCheck, Zap, CloudLightning } from "lucide-react";
+import { ShieldCheck, Zap, Monitor } from "lucide-react";
 
 const services = [
   {
     id: 1,
     title: "SOC Operations & Threat Detection",
     description:
-      "I investigate suspicious activity and security alerts across enterprise systems using SIEM tools like Splunk and ELK. I specialize in triage, incident documentation, and applying the MITRE ATT&CK framework to improve response accuracy.",
+      "I monitor and investigate security alerts using SIEM tools like Splunk and ELK. Skilled in log analysis, incident documentation, and applying the MITRE ATT&CK framework to improve detection and response capabilities.",
     icon: <ShieldCheck size={36} className="text-green-400 mb-4" />,
   },
   {
     id: 2,
-    title: "Security Automation & Python Scripting",
+    title: "Security Automation & Scripting",
     description:
-      "I develop Python-based automation to streamline repetitive SOC workflows including log parsing, alert enrichment, and early threat identification. I also experiment with AI-driven threat detection and intelligent alert filtering.",
+      "I develop Python, Bash, and PowerShell scripts to automate repetitive IT and SOC workflows — from log parsing and report generation to alert enrichment and early threat identification.",
     icon: <Zap size={36} className="text-yellow-400 mb-4" />,
   },
   {
     id: 3,
-    title: "Cloud Security & Access Control",
+    title: "IT Support & Systems Administration",
     description:
-      "I secure cloud environments (GCP, AWS, Azure) by auditing IAM policies, managing roles, enforcing MFA, and identifying misconfigurations. I also support compliance and risk reduction efforts aligned with industry best practices.",
-    icon: <CloudLightning size={36} className="text-blue-400 mb-4" />,
+      "I manage and secure enterprise IT environments, including Active Directory administration, user account provisioning, GPO policy enforcement, and hardware/software troubleshooting.",
+    icon: <Monitor size={36} className="text-blue-400 mb-4" />,
   },
 ];
 
