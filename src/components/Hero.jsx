@@ -42,7 +42,7 @@ const Hero = () => {
 
         {/* Summary */}
         <p className="text-gray-400 text-base sm:text-lg md:text-xl max-w-2xl mb-10">
-          Multi-certified IT Support and SOC Analyst skilled in building enterprise-grade 
+          Multi-certified IT Support Specialist and SOC Analyst skilled in building enterprise-grade 
           infrastructure labs, automating IT workflows, and integrating SIEM tools like Splunk 
           for proactive threat detection. Experienced in Active Directory, PowerShell automation, 
           vulnerability assessment, and incident response — delivering secure, efficient, and 
