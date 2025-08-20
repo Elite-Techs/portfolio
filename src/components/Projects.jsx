@@ -1,5 +1,5 @@
 import React from "react";
-import AdArchitecture from "../assets/Ad-architecture.png"; // ✅ Renamed variable & fixed spelling
+import AdArchitecture from "../assets/Ad-architecture.png"; 
 import ecomwithjs from "../assets/ecomwithjs.png";
 import ecomwithbootstrap from "../assets/ecomwithbootstrap.png";
 import FinancialIncidentResponsePlan from "../assets/Financial-Incident-Response-Plan.png";
